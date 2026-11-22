@@ -3,7 +3,6 @@
 # ✨ Yasir Event Planners
 
 ### Premium Event Management & Catering Services
-
 *Weddings · Corporate Events · Birthdays · Catering — Islamabad & Rawalpindi*
 
 <br/>
@@ -25,32 +24,14 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/ranayasir-90/Event-Planner-Website?style=flat-square&color=blue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ranayasir-90/Event-Planner-Website?style=flat-square&color=orange)
 ![GitHub stars](https://img.shields.io/github/stars/ranayasir-90/Event-Planner-Website?style=flat-square&color=yellow)
-![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
 </div>
 
 ---
 
-## 📋 Table of Contents
+## 🎯 About
 
-- [About The Project](#-about-the-project)
-- [Live Demo](#-live-demo)
-- [Features](#-features)
-- [Pages](#-pages)
-- [Tech Stack](#-tech-stack)
-- [Folder Structure](#-folder-structure)
-- [Getting Started](#-getting-started)
-- [Contact](#-contact)
-
----
-
-## 🎯 About The Project
-
-**Yasir Event Planners** is a fully responsive, multi-page business website for a premium event management and catering company based in Islamabad & Rawalpindi, Pakistan.
-
-The website is designed to give clients a seamless experience — from exploring services and viewing past event galleries, to checking pricing and getting in touch for bookings. It reflects elegance, professionalism, and trust that the brand stands for.
-
-> Built as a real-world client project with a focus on clean design, smooth animations, and mobile-first responsiveness.
+**Yasir Event Planners** is a fully responsive, multi-page business website for a premium event management and catering company based in Islamabad & Rawalpindi, Pakistan. Clients can explore services, view past event galleries, check pricing, and get in touch for bookings.
 
 ---
 
@@ -66,154 +47,54 @@ The website is designed to give clients a seamless experience — from exploring
 
 ## ✨ Features
 
-- 🎨 &nbsp; **Elegant Sidebar Navigation** — fixed sidebar layout with smooth toggle on mobile
-- 📱 &nbsp; **Fully Responsive** — optimized for all screen sizes (mobile, tablet, desktop)
-- 🌀 &nbsp; **Animated Sections** — scroll-triggered animations using Animate.css & Waypoints
-- 🖼️ &nbsp; **Portfolio Gallery** — event photo gallery with Magnific Popup lightbox
-- 🎠 &nbsp; **Image Carousel** — Owl Carousel for smooth image sliders
-- 💼 &nbsp; **Services Showcase** — dedicated services & pricing pages
-- ⚡ &nbsp; **Preloader** — smooth loading animation on page start
-- 📞 &nbsp; **Contact Section** — clean contact form with business info
-- 🔗 &nbsp; **Social Media Integration** — Facebook, Twitter, Instagram, Pinterest
+- 📱 Fully Responsive — mobile, tablet & desktop
+- 🎨 Elegant Sidebar Navigation with smooth mobile toggle
+- 🌀 Scroll-triggered animations (Animate.css + Waypoints)
+- 🖼️ Portfolio Gallery with Magnific Popup lightbox
+- 🎠 Owl Carousel image sliders
+- ⚡ Preloader animation on page load
+- 💼 Dedicated Services & Pricing pages
 
 ---
 
 ## 📄 Pages
 
-| # | Page | Route | Description |
-|---|------|--------|-------------|
-| 1 | 🏠 Home | `index.html` | Hero banner, services intro, highlights & CTA |
-| 2 | 👥 About | `about.html` | Company story, team members & mission |
-| 3 | 🛎️ Services | `services.html` | Full list of event & catering services |
-| 4 | 🛎️ Services Detail | `services-page.html` | Detailed individual service breakdown |
-| 5 | 💰 Pricing | `pricing.html` | Packages & pricing plans |
-| 6 | 🖼️ Portfolio | `portfolio.html` | Past events gallery grid |
-| 7 | 🖼️ Portfolio Detail | `portfolio-page.html` | Individual project showcase |
-| 8 | 📞 Contact | `contact.html` | Contact form, location & business info |
+| Page | File | Description |
+|------|------|-------------|
+| 🏠 Home | `index.html` | Hero banner, services intro & CTA |
+| 👥 About | `about.html` | Company story & team |
+| 🛎️ Services | `services.html` | Full services list |
+| 💰 Pricing | `pricing.html` | Packages & pricing plans |
+| 🖼️ Portfolio | `portfolio.html` | Past events gallery |
+| 📞 Contact | `contact.html` | Contact form & info |
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Technology | Purpose |
-|-----------|---------|
-| **HTML5** | Page structure & semantic markup |
-| **CSS3** | Custom styling & layout |
-| **Bootstrap 3** | Responsive grid & UI components |
-| **JavaScript / jQuery** | Interactivity & DOM manipulation |
-| **Owl Carousel** | Image sliders & carousels |
-| **Animate.css** | Scroll-triggered animations |
-| **Magnific Popup** | Lightbox gallery |
-| **jQuery Waypoints** | Trigger animations on scroll |
-| **Themify Icons** | Icon library |
-| **Netlify** | Hosting & deployment |
-
----
-
-## 📁 Folder Structure
-
-```
-📦 eventplanner/
-├── 📁 css/
-│   ├── animate.css              # Animation library
-│   ├── bootstrap.css            # Bootstrap framework
-│   ├── magnific-popup.css       # Lightbox styles
-│   ├── owl.carousel.min.css     # Carousel styles
-│   ├── style.css                # Custom styles ⭐
-│   ├── themify-icons.css        # Icon font styles
-│   └── 📁 fonts/                # CSS font files
-│
-├── 📁 fonts/                    # Themify icon font files
-│
-├── 📁 images/
-│   ├── 📁 portfolio/            # Portfolio event photos
-│   ├── 📁 services/             # Service section images
-│   ├── 📁 slider/               # Hero background images
-│   ├── 📁 team/                 # Team member photos
-│   ├── logo.png
-│   └── favicon.png
-│
-├── 📁 js/
-│   ├── bootstrap.min.js
-│   ├── jquery.min.js
-│   ├── jquery.easing.1.3.js
-│   ├── jquery.magnific-popup.min.js
-│   ├── jquery.waypoints.min.js
-│   ├── main.js                  # Custom JS ⭐
-│   └── owl.carousel.min.js
-│
-├── 📄 index.html                # Home
-├── 📄 about.html                # About
-├── 📄 services.html             # Services
-├── 📄 services-page.html        # Service Detail
-├── 📄 pricing.html              # Pricing
-├── 📄 portfolio.html            # Portfolio
-├── 📄 portfolio-page.html       # Portfolio Detail
-├── 📄 contact.html              # Contact
-├── 📄 .htaccess
-├── 📄 .gitignore
-└── 📄 README.md
-```
+`HTML5` &nbsp; `CSS3` &nbsp; `Bootstrap` &nbsp; `JavaScript` &nbsp; `jQuery` &nbsp; `Owl Carousel` &nbsp; `Animate.css` &nbsp; `Magnific Popup` &nbsp; `Themify Icons`
 
 ---
 
 ## 🚀 Getting Started
 
-### Prerequisites
-- Any modern web browser (Chrome, Firefox, Edge, Safari)
-- [VS Code](https://code.visualstudio.com/) _(recommended)_ with **Live Server** extension
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/eventplanner.git
-   ```
-
-2. **Navigate into the project**
-   ```bash
-   cd eventplanner
-   ```
-
-3. **Open in browser**
-   - Double-click `index.html`, **OR**
-   - Right-click in VS Code → **Open with Live Server**
-
-That's it! No build tools or dependencies to install. 🎉
+```bash
+git clone https://github.com/ranayasir-90/Event-Planner-Website.git
+cd Event-Planner-Website
+```
+Then open `index.html` in your browser — no build tools needed! 🎉
 
 ---
 
 ## 📞 Contact
 
-<div align="center">
-
-| | |
-|:---:|:---|
-| 📱 | **0325 8746680** |
-| 📧 | **muhammadyasirjabbarr@gmail.com** |
-| 📍 | **Islamabad & Rawalpindi, Pakistan** |
-
-<br/>
-
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com)
-
-</div>
-
----
-
-## 📜 License
-
-Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.
+📧 **muhammadyasirjabbarr@gmail.com** &nbsp;|&nbsp; 📍 **Islamabad & Rawalpindi, Pakistan**
 
 ---
 
 <div align="center">
 
-**⭐ If you like this project, please give it a star on GitHub! ⭐**
-
-<br/>
+**⭐ If you like this project, please give it a star! ⭐**
 
 Made with ❤️ by **[Rana Yasir](https://github.com/ranayasir-90)**
 
