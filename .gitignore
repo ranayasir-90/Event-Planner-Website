@@ -1,0 +1,15 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# HTTrack cache
+hts-cache/
+hts-log.txt
+backblue.gif
+fade.gif
+
+# Editor files
+.vscode/
+*.sublime-project
+*.sublime-workspace
